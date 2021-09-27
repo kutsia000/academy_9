@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* რუკა */
+.map-container {
+    margin-top: 50px;
+}
+
+.map {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    margin: 0 auto;
+}
+
+/* სათაურები */ 
+.contact-title-container {
+    max-width: 1088px;
+    width: 100%;
+    /* max-width: 378px;
+    width: 100%; */
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact-sub {
+    max-width: 70px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863F8;
+    text-transform: uppercase;
+}
+
+.contact-title {
+    max-width: 378px;
+    width: 100%;
+    height: 115px;
+    font-size: 42px;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+/* ფორმის სტილები */
+.form-container {
+    margin-top: 50px;
+}
+
+.form-wraper {
+    max-width: 1088px;
+    width: 100%;
+    height: 288px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block {
+    max-width: 352px;
+    width: 100%;
+    max-height: 288px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-textarea {
+    max-width: 720px;
+    width: 100%;
+    max-height: 288px;
+    font-size: 13px;
+}
+
+.form-input {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 16px;
+    font-size: 13px;   
+}
+
+.form-input,
+.form-textarea {
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #CECECE;
+    padding-left: 20px; 
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+}
+
+.btn-send {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    background-color: #5863F8;
+}
+
+.btn-content {
+    width: 61.25px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+/* ქარდის სტილები */
+.cards-container {
+    margin-top: 50px;
+}
+
+.cards {
+    max-width: 1108px;
+    width: 100%;
+    height: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 362px;
+    width: 100%;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-logo-container {
+    width: 59px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #5863F8;
+    color: #ffffff;
+    position: relative;
+}
+
+.card-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-title h3{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    width: 100%;
+    text-align: center;
+    color: #B1B1B1;
+    font-size: 14px;
+}
+
+.card-text ul li {
+    line-height: 25px;
+}
+
+/* photos */
+.photos-section {
+    margin-top: 90px;
+}
+
+.photos-titles-container {
+    max-width: 565px;
+    width: 100%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+}

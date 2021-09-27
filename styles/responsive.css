@@ -1,0 +1,45 @@
+/* 1280px */
+@media (max-width: 1280px) {
+    .map,
+    .contact-title-container,
+    .form-wraper,
+    .photos-titles-container {
+        max-width: 980px;
+        width: 100%;
+    }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+    .map,
+    .contact-title-container,
+    .form-wraper,
+    .photos-titles-container {
+        max-width: 560px;
+        width: 100%;
+    }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+    .cards {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 30px;
+    }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+    .map,
+    .contact-title-container,
+    .form-wraper,
+    .photos-titles-container {
+        max-width: 380px;
+        width: 100%;
+    }
+}
