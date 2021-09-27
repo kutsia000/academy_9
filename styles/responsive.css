@@ -18,6 +18,17 @@
         max-width: 560px;
         width: 100%;
     }
+
+    .photos-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .photos-container img {
+        margin-top: 30px;
+        width: auto;
+    }
 }
 
 /* 576px */
@@ -31,6 +42,7 @@
     .card {
         margin-top: 30px;
     }
+
 }
 
 /* 480px */
@@ -41,5 +53,9 @@
     .photos-titles-container {
         max-width: 380px;
         width: 100%;
+    }
+
+    .form-wraper {
+        margin-top: 30px;
     }
 }
