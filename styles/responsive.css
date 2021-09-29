@@ -9,6 +9,17 @@
     }
 }
 
+/* 800px */
+@media (max-width: 800px) {
+    .navigation ul {
+        display: none;
+    }
+
+    .burger-bar {
+        display: block;
+    }
+}
+
 /* 768px */
 @media (max-width: 768px) {
     .map,
@@ -29,6 +40,8 @@
         margin-top: 30px;
         width: auto;
     }
+
+
 }
 
 /* 639px */

@@ -4,6 +4,86 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header */
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 100%; 
+    height: 324px;
+    background-image: url(../images/Group\ 68.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-wraper {
+    max-width: 1088px;
+    width: 90%;
+    height: 210px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    max-width: 1088px;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.navigation h5 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li a {
+    margin-left:24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-contact {
+    width: 184px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-contact h1 {
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    width: 1px;
+    height: 19px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-contact a {
+    color: #ffffff;
+}
+
 /* რუკა */
 .map-container {
     margin-top: 50px;
@@ -47,6 +127,12 @@ body {
     word-wrap: break-word;
 }
 
+.burger-bar {
+    display: none;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
 /* ფორმის სტილები */
 .form-container {
     margin-top: 50px;
@@ -54,7 +140,7 @@ body {
 
 .form-wraper {
     max-width: 1088px;
-    width: 100%;
+    width: 95%;
     height: 288px;
     margin: 0 auto;
     display: flex;
