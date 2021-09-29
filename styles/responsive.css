@@ -31,6 +31,31 @@
     }
 }
 
+/* 639px */
+@media (max-width: 639px) {
+    .footer-wraper,
+    .container-ul,
+    .aditional-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .container-ul{
+        width: 260px;
+        align-items: baseline;
+    }
+
+    .card-ul{
+        margin-top:15px;
+    }
+}
+
+
 /* 576px */
 @media (max-width: 576px) {
     .cards {
